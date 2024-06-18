@@ -13,53 +13,41 @@ Passo a Passo para Configuração
 
 Se você tiver um repositório Git, clone-o usando o comando abaixo:
 
-sh
-
-git clone https://github.com/usuario/nome-do-repositorio.git
-cd nome-do-repositorio
+    git clone https://github.com/Salesupper/FastApi-Python.git
+    cd FastApi-Python
 
 2. Criar e Ativar um Ambiente Virtual
 
 Crie um ambiente virtual para isolar as dependências do projeto.
 
-sh
-
-python -m venv venv
+    python -m venv venv
 
 Ative o ambiente virtual:
 
-    No Windows (Prompt de Comando):
-
-    sh
-
-venv\Scripts\activate
+No Windows (Prompt de Comando):
+    
+    venv\Scripts\activate
 
 No Windows (PowerShell):
 
-sh
-
-    .\venv\Scripts\Activate.ps1
+    .\venv\Scripts\Activate
 
 3. Instalar Dependências
 
 Instale as dependências necessárias usando o pip. Se você tiver um arquivo requirements.txt no seu projeto, use:
 
-sh
-
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 API 
 
 Para subir a API, execute: 
 
-./dev.bat
+    ./dev.bat
 
-e acesse: http://127.0.0.1:8000/docs
+    e acesse: http://127.0.0.1:8000/docs
 
 Desativar o Ambiente Virtual
 
 Para desativar o ambiente virtual, use:
 
-sh
-
-deactivate
+    deactivate
